@@ -5,7 +5,7 @@
 Add the parameters to `/etc/default/grub`
 
 ```
-loglevel=3 iommu=pt acpi_backlight=native
+iommu=pt acpi_backlight=native
 ```
 
 `iommu=pt` Solves the Graphics issue.
